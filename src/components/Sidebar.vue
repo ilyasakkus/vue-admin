@@ -5,10 +5,10 @@
     <div class="sidebar-head p-4">
       <router-link to="/" exact>
         <h2
-          class="text-2xl font-normal text-gray-800 dark:text-gray-500"
+          class="text-2xl font-normal text-cyan-800 dark:text-gray-500"
           translate="no"
         >
-          Windzo<span class="text-primary">.</span>
+          İnönü Mezun Portalı<span class="text-cyan-800"></span>
           <span
             class="bg-gray-700 absolute mt-2 dark:block hidden rounded-md py-1 px-2 text-xs text-gray-200"
             >Dark mode</span

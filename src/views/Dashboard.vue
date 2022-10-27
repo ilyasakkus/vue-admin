@@ -25,7 +25,7 @@
     <!-- end nav -->
     <div class="mt-5 w-full">
       <h1 class="text-2xl text-gray-900 dark:text-gray-200 font-medium">
-        Dashboard
+        
       </h1>
     </div>
     <!-- grid wrapper card -->
@@ -61,9 +61,9 @@
 
         <div class="block p-2 w-full">
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
-            Rp.2 300 908
+            136.000
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Payouts</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Toplam Mezun</h2>
         </div>
       </div>
       <!-- end card -->
@@ -97,7 +97,7 @@
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
             256
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Sales</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Aktif Mezun</h2>
         </div>
       </div>
       <!-- end card -->
@@ -136,7 +136,7 @@
             3569
           </p>
           <h2 class="font-normal text-gray-400 text-md mt-1">
-            Total Customers
+            Portal Kullanıcısı
           </h2>
         </div>
       </div>
@@ -173,66 +173,15 @@
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
             7 230
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Total Visit</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Toplam Ziyaretçi</h2>
         </div>
       </div>
       <!-- end card -->
     </div>
     <!-- end wrapper card -->
     <div class="mt-2 lg:flex block lg:gap-2">
-      <div
-        class="bg-white dark:bg-gray-800 p-5 w-full rounded-md box-border shadow"
-      >
-        <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-          Total Sales
-        </h2>
-        <p class="text-gray-400 font-lexend font-normal">
-          your sales chart per-years
-        </p>
-        <span class="float-right mr-20">
-          <h2 class="text-red-500 -mt-12 flex">
-            <span class="mr-2"> 15.9% </span
-            ><span>
-              <Icon icon="akar-icons:arrow-down" />
-            </span>
-          </h2>
-        </span>
-        <span class="float-right">
-          <h2 class="text-green-500 -mt-12 flex">
-            <span class="mr-2"> 87.9% </span
-            ><span>
-              <Icon icon="akar-icons:arrow-up" />
-            </span>
-          </h2>
-        </span>
-        <br />
-        <apexchart
-          width="100%"
-          height="380"
-          type="area"
-          :options="optionsArea"
-          :series="seriesArea"
-          :sparkline="{
-            enabled: true,
-          }"
-        ></apexchart>
-        <br />
-        <hr />
-        <div class="wrapper-button mt-3">
-          <select
-            name=""
-            id=""
-            class="dark:bg-gray-800 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-300 border max-w-lg px-4 py-3 block rounded-md text-gray-500 dark:text-gray-400"
-          >
-            <option value="">Last 7 years</option>
-          </select>
-          <button
-            class="uppercase float-right -mt-7 border-b border-red-600 text-red-600"
-          >
-            Sales Report
-          </button>
-        </div>
-      </div>
+    <div class="card bg-white dark:bg-gray-800 w-full rounded-md p-5 shadow">
+      Hi bru </div>
       <div
         class="bg-white dark:bg-gray-800 p-5 lg:w-96 lg:mt-0 mt-4 shadow rounded-md w-full"
       >

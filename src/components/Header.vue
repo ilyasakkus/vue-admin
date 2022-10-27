@@ -29,7 +29,7 @@
         <h2
           class="text-md text-indigo-800 ml-3 lg:block hidden px-5 p-2 rounded-md bg-indigo-200"
         >
-          Welcome back, Mohammad Sahrullah
+         Hoşgeldiniz, İlyas Akkuş
         </h2>
       </div>
       <div class="mr-5 flex">
@@ -41,7 +41,7 @@
           /></span>
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Ara..."
             class="p-3 w-full bg-white dark:bg-gray-900 rounded-md outline-none focus:bg-gray-100 dark:focus:bg-gray-700"
           />
         </div>
@@ -101,8 +101,8 @@
             class="block absolute right-10 mt-12 z-10 w-44 border dark:border-gray-700 bg-white dark:bg-gray-800 rounded divide-y dark:divide-gray-700 divide-gray-100 shadow"
           >
             <div class="py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
-              <div>Logged As</div>
-              <div class="font-medium truncate">Moh Sahrullah</div>
+              <div>Giriş Yapan</div>
+              <div class="font-medium truncate">İlyas Akkuş</div>
             </div>
             <ul
               class="py-1 text-sm text-gray-700 dark:text-gray-200"
@@ -112,21 +112,21 @@
                 <a
                   href="#"
                   class="block py-2 px-4 0 hover:bg-primary hover:text-white"
-                  >User Profile</a
+                  > Profil</a
                 >
               </li>
               <li>
                 <a
                   href="#"
                   class="block py-2 px-4 hover:bg-primary hover:text-white"
-                  >Settings</a
+                  >Ayarlar</a
                 >
               </li>
               <li>
                 <a
                   href="#"
                   class="block py-2 px-4 hover:bg-primary hover:text-white"
-                  >Github</a
+                  >Abonelikler</a
                 >
               </li>
             </ul>
@@ -134,7 +134,7 @@
               <a
                 href="#"
                 class="block py-2 px-4 text-sm text-gray-700 dark:text-gray-200 hover:bg-primary hover:text-white"
-                >Sign out</a
+                >Çıkış Yap</a
               >
             </div>
           </div>
