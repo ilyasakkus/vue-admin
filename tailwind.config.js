@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./public/**/*.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
     // "./node_modules/flowbite/**/*.js",
   ],
   darkMode: "class",
@@ -26,5 +27,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 };

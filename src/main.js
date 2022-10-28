@@ -9,6 +9,7 @@ import "vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css";
 import "./assets/tailwind.css";
 import "./assets/animate.css";
 import "./assets/sass/css/windzo.css";
+import 'flowbite';
 
 const app = createApp(App);
 app.use(router, Icon);
