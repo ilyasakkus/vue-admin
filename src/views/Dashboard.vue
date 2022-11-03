@@ -905,8 +905,8 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Notifications</h3>
-        <p class="mt-1 text-sm text-gray-600">Decide which communications you'd like to receive and how.</p>
+        <h3 class="text-lg font-medium leading-6 text-gray-900">Abonelik ve Bildirimler</h3>
+        <p class="mt-1 text-sm text-gray-600">Abonelikler ile email bülteni ve SMS ile etkinlik ve haberleri takip edebilirsiniz. </p>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -915,14 +915,14 @@ Giriş Yap              </h1>
           <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
             <fieldset>
               <legend class="sr-only">By Email</legend>
-              <div class="text-base font-medium text-gray-900" aria-hidden="true">By Email</div>
+              <div class="text-base font-medium text-gray-900" aria-hidden="true">Email Abonelikleri</div>
               <div class="mt-4 space-y-4">
                 <div class="flex items-start">
                   <div class="flex h-5 items-center">
                     <input id="comments" name="comments" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="comments" class="font-medium text-gray-700">Comments</label>
+                    <label for="comments" class="font-medium text-gray-700">Mezun Haberleri</label>
                     <p class="text-gray-500">Get notified when someones posts a comment on a posting.</p>
                   </div>
                 </div>
@@ -931,7 +931,7 @@ Giriş Yap              </h1>
                     <input id="candidates" name="candidates" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="candidates" class="font-medium text-gray-700">Candidates</label>
+                    <label for="candidates" class="font-medium text-gray-700">Etkinlik Davetleri</label>
                     <p class="text-gray-500">Get notified when a candidate applies for a job.</p>
                   </div>
                 </div>
@@ -940,27 +940,36 @@ Giriş Yap              </h1>
                     <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="offers" class="font-medium text-gray-700">Offers</label>
+                    <label for="offers" class="font-medium text-gray-700">Tebrik Mailleri</label>
+                    <p class="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex h-5 items-center">
+                    <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                  </div>
+                  <div class="ml-3 text-sm">
+                    <label for="offers" class="font-medium text-gray-700">Kariyer Fırsatları</label>
                     <p class="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
                   </div>
                 </div>
               </div>
             </fieldset>
             <fieldset>
-              <legend class="contents text-base font-medium text-gray-900">Push Notifications</legend>
-              <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.</p>
+              <legend class="contents text-base font-medium text-gray-900">Bildirimler</legend>
+              <p class="text-sm text-gray-500">SMS ve E-mail bildirim tercihleri</p>
               <div class="mt-4 space-y-4">
                 <div class="flex items-center">
                   <input id="push-everything" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-everything" class="ml-3 block text-sm font-medium text-gray-700">Everything</label>
+                  <label for="push-everything" class="ml-3 block text-sm font-medium text-gray-700">Her ikiside</label>
                 </div>
                 <div class="flex items-center">
                   <input id="push-email" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">Same as email</label>
+                  <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">Sadece Email</label>
                 </div>
                 <div class="flex items-center">
                   <input id="push-nothing" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">No push notifications</label>
+                  <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">Sadece SMS</label>
                 </div>
               </div>
             </fieldset>
