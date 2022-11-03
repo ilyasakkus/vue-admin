@@ -4,20 +4,20 @@ import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 // Component Pages
 import Valert from "../views/components/alert.vue";
-import Vaccrodion from "../views/components/accordion.vue";
-import Vbadges from "../views/components/badges.vue";
+import Vaccrodion from "../views/components/ilanlar.vue";
+import Vbadges from "../views/components/mentor.vue";
 import Vbreadcumb from "../views/components/breadcumbs.vue";
 import Vbutton from "../views/components/button.vue";
 import Vcard from "../views/components/card.vue";
-var appname = " - Windzo Dashboard Admin Template";
+var appname = " - İnönü Mezun Portalı";
 
 const routes = [
   // Routes
   {
     path: "/",
-    name: "Dashboard",
+    name: "Anasayfa",
     component: Dashboard,
-    meta: { title: "Dashboard " + appname },
+    meta: { title: "Dashboard" + appname },
   },
 
   // Components based Routes
@@ -28,14 +28,14 @@ const routes = [
     meta: { title: "Alert" + appname },
   },
   {
-    path: "/component/accordion",
+    path: "/component/ilanlar",
     name: "Vaccordion",
     component: Vaccrodion,
     meta: { title: "Accordion" + appname },
   },
   {
-    path: "/component/badge",
-    name: "Vbadge",
+    path: "/component/mentor",
+    name: "Mentör",
     component: Vbadges,
     meta: { title: "Badge" + appname },
   },
