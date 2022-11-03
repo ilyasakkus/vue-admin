@@ -727,18 +727,18 @@ Giriş Yap              </h1>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
-      <form action="#" method="POST">
+      <form action="#" method="GET">
         <div class="overflow-hidden shadow sm:rounded-md">
           <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
               <div class="col-span-6 sm:col-span-3">
                 <label for="first-name" class="block text-sm font-medium text-gray-700">Ad</label>
-                <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="Test" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="İlyas" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-3">
                 <label for="last-name" class="block text-sm font-medium text-gray-700">Soyad</label>
-                <input type="text" disabled name="last-name" id="last-name" autocomplete="family-name" placeholder="Usage" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                <input type="text" disabled name="last-name" id="last-name" autocomplete="family-name" placeholder="Akkus" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-4">
@@ -749,15 +749,18 @@ Giriş Yap              </h1>
                 <label for="email-address" class="block text-sm font-medium text-gray-700">T.C No</label>
                 <input type="text" name="email-address" disabled id="email-address" placeholder="11111111111" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
-              <div class="col-span-6 sm:col-span-3">
-                <label for="email-address" class="block text-sm font-medium text-gray-700">Öğrenci No</label>
-                <input type="text" name="email-address" disabled id="email-address" placeholder="111111111111"  class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-              </div>
+             
               <div class="col-span-6 sm:col-span-4">
                 <label for="company-website" class="block text-sm font-medium text-gray-700">Website</label>
                 <div class="mt-1 flex rounded-md shadow-sm">
                   <span class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500">http://</span>
                   <input type="text" name="company-website" id="company-website" class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="www.example.com">
+                </div>
+              </div>
+              <div class="col-span-6 sm:col-span-4">
+                <label for="company-website" class="block text-sm font-medium text-gray-700">Telefon</label>
+                <div class="mt-1 flex rounded-md shadow-sm">
+                  <input type="text" name="company-phone" id="company-phone" class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="+90.....">
                 </div>
               </div>
               <div class="col-span-6 sm:col-span-3">
@@ -794,7 +797,49 @@ Giriş Yap              </h1>
             </div>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Save</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="mt-10 sm:mt-0">
+  <div class="md:grid md:grid-cols-3 md:gap-6">
+    <div class="md:col-span-1">
+      <div class="px-4 sm:px-0">
+        <h3 class="text-lg font-medium leading-6 text-gray-900"> Mezuniyet Bilgileri</h3>
+      </div>
+    </div>
+    <div class="mt-5 md:col-span-2 md:mt-0">
+      <form action="#" method="GET">
+        <div class="overflow-hidden shadow sm:rounded-md">
+          <div class="bg-white px-4 py-5 sm:p-6">
+            <div class="grid grid-cols-6 gap-6">
+              <div class="col-span-6 sm:col-span-3">
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Öğrenim Türü</label>
+                <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="Lisans" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              </div>
+              <div class="col-span-6 sm:col-span-3">
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Mezuniyet Yılı</label>
+                <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="2013" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              </div>
+
+              <div class="col-span-6 sm:col-span-3">
+                <label for="last-name" class="block text-sm font-medium text-gray-700">Bölüm</label>
+                <input type="text" disabled name="last-name" id="last-name" autocomplete="family-name" placeholder="BÖTE" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              </div>
+
+            
+              <div class="col-span-6 sm:col-span-3">
+                <label for="email-address" class="block text-sm font-medium text-gray-700">Fakülte/Enstitü</label>
+                <input type="text" name="email-address" disabled id="email-address" placeholder="Eğitim Fakültesi" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+              </div>
+              
+            </div>
+          </div>
+          <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Senkronize Et</button>
           </div>
         </div>
       </form>
@@ -815,7 +860,7 @@ Giriş Yap              </h1>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
-      <form action="#" method="POST">
+      <form action="#" method="GET">
         <div class="shadow sm:overflow-hidden sm:rounded-md">
           <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
            
@@ -842,7 +887,7 @@ Giriş Yap              </h1>
 
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Kaydet</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
           </div>
         </div>
       </form>
@@ -865,7 +910,7 @@ Giriş Yap              </h1>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
-      <form action="#" method="POST">
+      <form action="#" method="GET">
         <div class="overflow-hidden shadow sm:rounded-md">
           <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
             <fieldset>
@@ -921,7 +966,7 @@ Giriş Yap              </h1>
             </fieldset>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Save</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
           </div>
         </div>
       </form>
