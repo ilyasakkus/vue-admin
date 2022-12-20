@@ -29,7 +29,7 @@
         <h2
           class="text-md text-indigo-800 ml-3 lg:block hidden px-5 p-2 rounded-md bg-indigo-200"
         >
-         Hoşgeldiniz, İlyas Akkuş
+         Welcome, İlyas Akkuş
         </h2>
       </div>
       <div class="mr-5 flex">
@@ -101,7 +101,7 @@
             class="block absolute right-10 mt-12 z-10 w-44 border dark:border-gray-700 bg-white dark:bg-gray-800 rounded divide-y dark:divide-gray-700 divide-gray-100 shadow"
           >
             <div class="py-3 px-4 text-sm text-gray-900 dark:text-gray-200">
-              <div>Giriş Yapan</div>
+              <div> Signed as</div>
               <div class="font-medium truncate">İlyas Akkuş</div>
             </div>
             <ul
@@ -112,21 +112,21 @@
                 <a
                   href="#"
                   class="block py-2 px-4 0 hover:bg-primary hover:text-white"
-                  > Profil</a
+                  > Profile</a
                 >
               </li>
               <li>
                 <a
                   href="#"
                   class="block py-2 px-4 hover:bg-primary hover:text-white"
-                  >Ayarlar</a
+                  >Settings</a
                 >
               </li>
               <li>
                 <a
                   href="#"
                   class="block py-2 px-4 hover:bg-primary hover:text-white"
-                  >Abonelikler</a
+                  >Subscriptions</a
                 >
               </li>
             </ul>
@@ -134,7 +134,7 @@
               <a
                 href="#"
                 class="block py-2 px-4 text-sm text-gray-700 dark:text-gray-200 hover:bg-primary hover:text-white"
-                >Çıkış Yap</a
+                >Sign out</a
               >
             </div>
           </div>

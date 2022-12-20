@@ -8,7 +8,7 @@
           class="text-2xl font-normal text-cyan-800 dark:text-gray-500"
           translate="no"
         >
-          İnönü Mezun Portalı<span class="text-cyan-800"></span>
+          Ecommerce Portal<span class="text-cyan-800"></span>
           <span
             class="bg-gray-700 absolute mt-2 dark:block hidden rounded-md py-1 px-2 text-xs text-gray-200"
             >Dark mode</span
@@ -42,7 +42,7 @@
             class="w-full flex text-left rounded-md box-border p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
             <span class="mr-3 text-xl"><Icon icon="bxs:dashboard" /></span>
-            <span class="w-full"> Anasayfa </span>
+            <span class="w-full"> Home </span>
           </router-link>
         </div>
         <div class="item mt-3">
@@ -50,27 +50,26 @@
             <template v-slot:icon>
               <Icon icon="gg:components" />
             </template>
-            <template v-slot:title> Menü </template>
+            <template v-slot:title> Menu </template>
             <template v-slot:content>
               <router-link
                 to="/component/alert"
                 class="w-full text-left block rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-                Etkinlikler
+                News
               </router-link>
               <router-link
                 to="/component/card"
                 class="w-full text-left block rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-                Haberler
+                Events
               </router-link>
             
               <router-link
                 to="/component/button"
                 class="w-full text-left block rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
-                Bağış Yap
-              </router-link>
+Donate              </router-link>
                   
             </template>
           </menu-accordion>
@@ -84,7 +83,7 @@
             class="text-gray-800 dark:text-gray-500 bg-transparent hover:bg-gray-100 dark:hover:bg-gray-700 w-full flex text-left rounded-md box-border p-3"
           >
             <span class="mr-3 text-xl"><Icon icon="gg:user-list" /></span>
-            <span class="w-full"> Mezun Mentör </span>
+            <span class="w-full"> Menu 1 </span>
             <span class="box-border mt-1 text-gray-500"> </span>
           </button>
         </router-link>
@@ -96,7 +95,7 @@
             class="text-gray-800 dark:text-gray-500 bg-transparent hover:bg-gray-100 dark:hover:bg-gray-700 w-full flex text-left rounded-md box-border p-3"
           >
             <span class="mr-3 text-xl"><Icon icon="gg:album" /></span>
-            <span class="w-full"> Mezun Kariyer </span>
+            <span class="w-full"> Menu 2 </span>
             <span class="box-border mt-1 text-gray-500"> </span>
           </button>
         </router-link>
@@ -107,7 +106,7 @@
             class="text-gray-800 dark:text-gray-500 bg-transparent hover:bg-gray-100 dark:hover:bg-gray-700 w-full flex text-left rounded-md box-border p-3"
           >
             <span class="mr-3 text-xl"><Icon icon="gg:feed" /></span>
-            <span class="w-full"> İş İlanları </span>
+            <span class="w-full"> Menu 3 </span>
             <span class="box-border mt-1 text-gray-500"> </span>
           </button>
         </router-link>

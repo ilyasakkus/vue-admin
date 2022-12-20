@@ -63,7 +63,7 @@
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
             136.000
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Toplam Mezun</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Total</h2>
         </div>
       </div>
       <!-- end card -->
@@ -97,7 +97,7 @@
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
             256
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Aktif Mezun</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Sales</h2>
         </div>
       </div>
       <!-- end card -->
@@ -136,7 +136,7 @@
             3569
           </p>
           <h2 class="font-normal text-gray-400 text-md mt-1">
-            Portal Kullanıcısı
+            Users
           </h2>
         </div>
       </div>
@@ -173,7 +173,7 @@
           <p class="font-semibold text-gray-900 dark:text-gray-200 text-xl">
             7 230
           </p>
-          <h2 class="font-normal text-gray-400 text-md mt-1">Toplam Ziyaretçi</h2>
+          <h2 class="font-normal text-gray-400 text-md mt-1">Traffic</h2>
         </div>
       </div>
       <!-- end card -->
@@ -274,8 +274,8 @@
       <div
         class="bg-white dark:bg-gray-800 p-5 lg:w-96 lg:mt-0 mt-4 shadow rounded-md w-full"
       >
-        <h2 class="dark:text-gray-200 text-xl font-bold">Arkadaş Listesi</h2>
-        <p class="text-gray-400">Takip ettiğiniz mezunlar</p>
+        <h2 class="dark:text-gray-200 text-xl font-bold">List users</h2>
+        <p class="text-gray-400">Follow up</p>
         <p class="font-medium font-lg mt-5 dark:text-gray-200">Online</p>
         <div class="mt-4 grid grid-cols-1 gap-4">
           <button class="w-full box-border flex gap-4">
@@ -368,9 +368,9 @@
       class="mt-2 bg-white dark:bg-gray-800 p-5 w-full rounded-md box-border shadow"
     >
       <h2 class="font-bold text-lg text-gray-800 dark:text-gray-200">
-Listeleme Tablosu      </h2>
+List table      </h2>
       <p class="text-gray-400 font-lexend font-normal">
-Bu alanda mezun arama, listeleme vb. işlemler için kullanılacak bir gelişmiş tablolama bileşeni kullanılacak.       </p>
+Listing products      </p>
       
 <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -669,20 +669,19 @@ Bu alanda mezun arama, listeleme vb. işlemler için kullanılacak bir gelişmi�
 <section class="bg-gray-50 dark:bg-gray-900">
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
       <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-          <img class="w-8 h-8 mr-2" src="https://www.inonu.edu.tr/img/logo.d80bb302.png" alt="logo">
-          Mezun Portalı    
+          Login    
       </a>
       <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-Giriş Yap              </h1>
+Sign in              </h1>
               <form class="space-y-4 md:space-y-6" action="#">
                   <div>
-                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kullanıcı Adı</label>
-                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="04100000000" required="">
+                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
+                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="ronin" required="">
                   </div>
                   <div>
-                      <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Şifre</label>
+                      <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
                       <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
                   </div>
                   <div class="flex items-center justify-between">
@@ -691,12 +690,12 @@ Giriş Yap              </h1>
                             <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
                           </div>
                           <div class="ml-3 text-sm">
-                            <label for="remember" class="text-gray-500 dark:text-gray-300">Beni hatırla</label>
+                            <label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
                           </div>
                       </div>
-                      <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Şifremi unuttum?</a>
+                      <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Reset password?</a>
                   </div>
-                  <button type="submit" class="w-300 text-white bg-cyan-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Giriş Yap</button>
+                  <button type="submit" class="w-300 text-white bg-cyan-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Submit</button>
                   
               </form>
           </div>
@@ -726,8 +725,8 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Kişisel Bilgiler</h3>
-        <p class="mt-1 text-sm text-gray-600">Güncelleme yapabileceğiniz alanlar sınırlıdır.</p>
+        <h3 class="text-lg font-medium leading-6 text-gray-900">User profile field</h3>
+        <p class="mt-1 text-sm text-gray-600"></p>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -736,21 +735,21 @@ Giriş Yap              </h1>
           <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
               <div class="col-span-6 sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">Ad</label>
-                <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="İlyas" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text"  name="first-name" id="first-name" autocomplete="given-name" placeholder="İlyas" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-3">
-                <label for="last-name" class="block text-sm font-medium text-gray-700">Soyad</label>
-                <input type="text" disabled name="last-name" id="last-name" autocomplete="family-name" placeholder="Akkus" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                <label for="last-name" class="block text-sm font-medium text-gray-700">Surname</label>
+                <input type="text"  name="last-name" id="last-name" autocomplete="family-name" placeholder="Akkus" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-4">
-                <label for="email-address" class="block text-sm font-medium text-gray-700">Email Adresi</label>
+                <label for="email-address" class="block text-sm font-medium text-gray-700">Email</label>
                 <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
               <div class="col-span-6 sm:col-span-3">
-                <label for="email-address" class="block text-sm font-medium text-gray-700">T.C No</label>
+                <label for="email-address" class="block text-sm font-medium text-gray-700">SSN</label>
                 <input type="text" name="email-address" disabled id="email-address" placeholder="11111111111" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
              
@@ -762,46 +761,46 @@ Giriş Yap              </h1>
                 </div>
               </div>
               <div class="col-span-6 sm:col-span-4">
-                <label for="company-website" class="block text-sm font-medium text-gray-700">Telefon</label>
+                <label for="company-website" class="block text-sm font-medium text-gray-700">Phone</label>
                 <div class="mt-1 flex rounded-md shadow-sm">
                   <input type="text" name="company-phone" id="company-phone" class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="+90.....">
                 </div>
               </div>
               <div class="col-span-6 sm:col-span-3">
-                <label for="country" class="block text-sm font-medium text-gray-700">Ülke</label>
+                <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
                 <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
-                  <option>Türkiye</option>
-                  <option>Azerbaycan</option>
-                  <option>Türkmenistan</option>
-                  <option>Suriye</option>
-                  <option>İran</option>
-                  <option>Irak</option>
+                  <option>Turkey</option>
+                  <option>Andorra</option>
+                  <option>Albania</option>
+                  <option>Armenia</option>
+                  <option>UK</option>
+                  <option>US</option>
                 </select>
               </div>
 
               <div class="col-span-6">
-                <label for="street-address" class="block text-sm font-medium text-gray-700">Adres</label>
+                <label for="street-address" class="block text-sm font-medium text-gray-700">Address</label>
                 <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-6 lg:col-span-2">
-                <label for="city" class="block text-sm font-medium text-gray-700">İl</label>
+                <label for="city" class="block text-sm font-medium text-gray-700">City</label>
                 <input type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                <label for="region" class="block text-sm font-medium text-gray-700">İlçe</label>
+                <label for="region" class="block text-sm font-medium text-gray-700">State</label>
                 <input type="text" name="region" id="region" autocomplete="address-level1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-3 lg:col-span-2">
-                <label for="postal-code" class="block text-sm font-medium text-gray-700">Posta Kodu</label>
+                <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP Code</label>
                 <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
             </div>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Save</button>
           </div>
         </div>
       </form>
@@ -817,7 +816,7 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900"> Mezuniyet Bilgileri</h3>
+        <h3 class="text-lg font-medium leading-6 text-gray-900"> Education</h3>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -826,29 +825,29 @@ Giriş Yap              </h1>
           <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
               <div class="col-span-6 sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">Öğrenim Türü</label>
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Degree</label>
                 <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="Lisans" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
               <div class="col-span-6 sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">Mezuniyet Yılı</label>
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Year</label>
                 <input type="text" disabled name="first-name" id="first-name" autocomplete="given-name" placeholder="2013" class="mt-1 block w-full rounded-md bg-gray-100 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
               <div class="col-span-6 sm:col-span-3">
-                <label for="last-name" class="block text-sm font-medium text-gray-700">Bölüm</label>
+                <label for="last-name" class="block text-sm font-medium text-gray-700">Department</label>
                 <input type="text" disabled name="last-name" id="last-name" autocomplete="family-name" placeholder="BÖTE" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
 
             
               <div class="col-span-6 sm:col-span-3">
-                <label for="email-address" class="block text-sm font-medium text-gray-700">Fakülte/Enstitü</label>
+                <label for="email-address" class="block text-sm font-medium text-gray-700">Faculty</label>
                 <input type="text" name="email-address" disabled id="email-address" placeholder="Eğitim Fakültesi" class="mt-1 block w-full bg-gray-100 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
               
             </div>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Senkronize Et</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Sync it</button>
           </div>
         </div>
       </form>
@@ -864,7 +863,7 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900"> Kariyer Bilgileri</h3>
+        <h3 class="text-lg font-medium leading-6 text-gray-900"> Career</h3>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -873,37 +872,37 @@ Giriş Yap              </h1>
           <div class="bg-white px-4 py-5 sm:p-6">
             <div class="grid grid-cols-6 gap-6">
               <div class="col-span-6 sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium text-gray-700">Çalıştığınız Kurum/Kuruluş</label>
+                <label for="first-name" class="block text-sm font-medium text-gray-700">Firm</label>
                 <input type="text"  name="first-name" id="first-name" autocomplete="given-name" placeholder="İnönü Üniversitesi" class="mt-1 block w-full rounded-md bg-white border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
               </div>
             
               <div class="col-span-6 sm:col-span-3">
-                <label for="country" class="block text-sm font-medium text-gray-700">Sektör</label>
+                <label for="country" class="block text-sm font-medium text-gray-700">Field</label>
                 <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
-                  <option>Eğitim</option>
-                  <option>Enerji</option>
-                  <option>Finans</option>
-                  <option>Gıda</option>
-                  <option>İnşaat</option>
-                  <option>Elektrik ve Elektronik</option>
+                  <option>Education</option>
+                  <option>Energy</option>
+                  <option>Finance</option>
+                  <option>Automotive</option>
+                  <option>Engineering</option>
+                  <option>Others</option>
                 </select>
               </div>
               <div class="col-span-6 sm:col-span-3">
-                <label for="country" class="block text-sm font-medium text-gray-700">İş Pozisyonu</label>
+                <label for="country" class="block text-sm font-medium text-gray-700">Position</label>
                 <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
-                  <option>Tekniker</option>
-                  <option>Memur</option>
-                  <option>Akademisyen</option>
-                  <option>Öğretmen</option>
-                  <option>Mühendis</option>
-                  <option>Yönetici</option>
+                  <option>Engineer</option>
+                  <option>Officer</option>
+                  <option>Lecturer</option>
+                  <option>Teacher</option>
+                  <option>Manager</option>
+                  <option>Others</option>
                 </select>
               </div>
               
             </div>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Save</button>
           </div>
         </div>
       </form>
@@ -919,8 +918,8 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Profil </h3>
-        <p class="mt-1 text-sm text-gray-600">Değişim yapabileceğiniz alanlar sınırlıdır.</p>
+        <h3 class="text-lg font-medium leading-6 text-gray-900">Profile </h3>
+        <p class="mt-1 text-sm text-gray-600"></p>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -930,28 +929,28 @@ Giriş Yap              </h1>
            
 
             <div>
-              <label for="about" class="block text-sm font-medium text-gray-700">Hakkımda</label>
+              <label for="about" class="block text-sm font-medium text-gray-700">About me</label>
               <div class="mt-1">
                 <textarea id="about" name="about" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="..."></textarea>
               </div>
-              <p class="mt-2 text-sm text-gray-500">Hakkında kısa bir açıklama ekle.</p>
+              <p class="mt-2 text-sm text-gray-500"></p>
             </div>
 
             <div>
-              <label class="block text-sm font-medium text-gray-700">Profil Fotoğrafı</label>
+              <label class="block text-sm font-medium text-gray-700">Avatar</label>
               <div class="mt-1 flex items-center">
                 <span class="inline-block h-12 w-12 overflow-hidden rounded-full bg-gray-100">
                   <svg class="h-full w-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
                 </span>
-                <button type="button" class="ml-5 rounded-md border border-gray-300 bg-white py-2 px-3 text-sm font-medium leading-4 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Değiştir</button>
+                <button type="button" class="ml-5 rounded-md border border-gray-300 bg-white py-2 px-3 text-sm font-medium leading-4 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Change</button>
               </div>
             </div>
 
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Save</button>
           </div>
         </div>
       </form>
@@ -969,8 +968,8 @@ Giriş Yap              </h1>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
       <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Abonelik ve Bildirimler</h3>
-        <p class="mt-1 text-sm text-gray-600">Abonelikler ile email bülteni ve SMS ile etkinlik ve haberleri takip edebilirsiniz. </p>
+        <h3 class="text-lg font-medium leading-6 text-gray-900">Subscribtion</h3>
+        <p class="mt-1 text-sm text-gray-600"> </p>
       </div>
     </div>
     <div class="mt-5 md:col-span-2 md:mt-0">
@@ -979,14 +978,14 @@ Giriş Yap              </h1>
           <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
             <fieldset>
               <legend class="sr-only">By Email</legend>
-              <div class="text-base font-medium text-gray-900" aria-hidden="true">Email Abonelikleri</div>
+              <div class="text-base font-medium text-gray-900" aria-hidden="true">Email</div>
               <div class="mt-4 space-y-4">
                 <div class="flex items-start">
                   <div class="flex h-5 items-center">
                     <input id="comments" name="comments" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="comments" class="font-medium text-gray-700">Mezun Haberleri</label>
+                    <label for="comments" class="font-medium text-gray-700">News</label>
                     <p class="text-gray-500">Get notified when someones posts a comment on a posting.</p>
                   </div>
                 </div>
@@ -995,7 +994,7 @@ Giriş Yap              </h1>
                     <input id="candidates" name="candidates" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="candidates" class="font-medium text-gray-700">Etkinlik Davetleri</label>
+                    <label for="candidates" class="font-medium text-gray-700">Events</label>
                     <p class="text-gray-500">Get notified when a candidate applies for a job.</p>
                   </div>
                 </div>
@@ -1004,7 +1003,7 @@ Giriş Yap              </h1>
                     <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="offers" class="font-medium text-gray-700">Tebrik Mailleri</label>
+                    <label for="offers" class="font-medium text-gray-700">Offers</label>
                     <p class="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
                   </div>
                 </div>
@@ -1013,33 +1012,33 @@ Giriş Yap              </h1>
                     <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
                   </div>
                   <div class="ml-3 text-sm">
-                    <label for="offers" class="font-medium text-gray-700">Kariyer Fırsatları</label>
+                    <label for="offers" class="font-medium text-gray-700">Oppurtunities</label>
                     <p class="text-gray-500">Get notified when a candidate accepts or rejects an offer.</p>
                   </div>
                 </div>
               </div>
             </fieldset>
             <fieldset>
-              <legend class="contents text-base font-medium text-gray-900">Bildirimler</legend>
-              <p class="text-sm text-gray-500">SMS ve E-mail bildirim tercihleri</p>
+              <legend class="contents text-base font-medium text-gray-900">Notifications</legend>
+              <p class="text-sm text-gray-500">SMS & E-mail</p>
               <div class="mt-4 space-y-4">
                 <div class="flex items-center">
                   <input id="push-everything" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-everything" class="ml-3 block text-sm font-medium text-gray-700">Her ikiside</label>
+                  <label for="push-everything" class="ml-3 block text-sm font-medium text-gray-700">Both</label>
                 </div>
                 <div class="flex items-center">
                   <input id="push-email" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700">Sadece Email</label>
+                  <label for="push-email" class="ml-3 block text-sm font-medium text-gray-700"> Email</label>
                 </div>
                 <div class="flex items-center">
                   <input id="push-nothing" name="push-notifications" type="radio" class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                  <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700">Sadece SMS</label>
+                  <label for="push-nothing" class="ml-3 block text-sm font-medium text-gray-700"> SMS</label>
                 </div>
               </div>
             </fieldset>
           </div>
           <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
-            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Kaydet</button>
+            <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-cyan-700 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2">Save</button>
           </div>
         </div>
       </form>
